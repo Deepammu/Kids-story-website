@@ -1,0 +1,74 @@
+ *
+{
+    margin: 0;
+    padding: 0;
+}
+.showcase h1{
+    font-size: 200px;
+    text-align: center;
+    color: black;
+    font-style: italic;
+
+}
+.showcase
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.video-container
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.video-content
+{
+    z-index: 1;
+    color: antiquewhite;
+    }
+    .video-content h1{
+        font-size: 35px;
+    }
+    .video-content a{
+        font-size: 20px;
+        color: white;
+        background-color: rgb(52, 230, 105);
+        padding: 10px;
+        text-decoration: none;
+    }
+    .video-content a:hover{
+        text-decoration: underline;
+    }
+    .right h1
+    {
+        font-size: 50px;
+        text-align: center;
+color: blue;
+font-style: italic;
+    }
+    .right p::first-letter
+    {
+        font-size: 50px;
+        color: green;
+     }
+    .right p{
+        text-indent: 50px;
+    }
+    .foot
+    {
+        text-align: center;
+    }
+    .right h3{
+        font-size: 30px;
+        text-align: center;
+        color: orangered;
+        font-style: italic;
+    }
+    .mid{
+        font-style: italic;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
